@@ -1,0 +1,95 @@
+.right {
+    text-align: right;
+
+}
+
+.justify {
+    text-align: justify;
+}
+
+.centre {
+    text-align: center
+}
+
+
+
+body {
+    color: #0D0740;
+    background-color: #FFDE94;
+
+}
+
+.my_intro h2 {
+    background-color: #191970;
+    color: #e6e6fa;
+}
+
+.my_intro {
+    font-family: times new roman, times, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.my_intro p {
+    font-family: calibri, verdana, helvetica, sans-serif;
+    text-align: left;
+    font-size: 110%;
+    font-weight: lighter;
+}
+
+.about_me {
+    background-color: rgba(199, 255, 47, 0.43);
+
+}
+
+.about_me h2 {
+    font-family: times new roman, times, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.about_me p {
+    font-family: calibri, verdana, helvetica, sans-serif;
+    text-align: left;
+    font-size: 110%;
+    font-weight: lighter;
+}
+
+.about_me ol {
+    color: red;
+    font-style: italic;
+    list-style-type: roman;
+}
+
+.about_me ul {
+    color: red;
+    font-style: italic;
+    list-style-type: square;
+}
+
+.about_me a {
+    text-decoration: none;
+    color: black;
+}
+
+.about_me a:hover {
+    color: orange;
+}
+
+.future_plans h2 {
+    color: #ff9300;
+    font-family: cursive;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.future_plans p {
+    color: red;
+    font-family: fantasy;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    color: darkviolet;
+}

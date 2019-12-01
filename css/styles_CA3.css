@@ -1,0 +1,189 @@
+
+#container{
+    width: 960px;
+	min-width:960px;
+    padding: 10px;
+	margin-left: auto;
+	margin-right:auto;	
+    margin-top: 10px;
+    border: none;
+}
+
+
+.row {
+    min-width: 50vw;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+/* hero image  */
+.hero__image {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 34%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../scu/images/abhiraj.jpg');
+  }
+  
+  .hero__image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hero__image-text h1 {
+    color: white;
+    font-size: 325%;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    text-shadow: 1px 1px 15px #000;
+  }
+  .hero__image-text p {
+    flex: 1;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    align-items: center;
+    padding-top: 15px;
+    text-shadow: 1px 1px 15px #000;
+  }
+
+/* hero image  */
+
+
+/* nav bar */
+
+nav {
+    font-family: "Montserrat";
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .nav__picture-logo {
+    text-align: right;
+    margin: 15px;
+    width: 22%;
+    margin-right: 4px;
+  }
+  .nav__list {
+    list-style: none;
+  }
+  
+  .nav__list-item {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    padding: 1px 15px;
+    color: #fff;
+    font-size: 140%;
+      background-image: url("images/background1.jpg"), url("background1.jpg");
+      background-repeat: no-repeat, repeat;
+      
+  }
+/* nav bar */
+
+.right {
+    text-align: right;
+
+}
+
+.justify {
+    text-align: justify;
+}
+
+.centre {
+    text-align: center
+}
+
+.my_intro h2 {
+    background-color: #191970;
+    color: #e6e6fa;
+}
+
+.my_intro {
+    font-family: times new roman, times, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.my_intro p {
+    font-family: calibri, verdana, helvetica, sans-serif;
+    text-align: left;
+    font-size: 110%;
+    font-weight: lighter;
+}
+
+.about_me {
+    background-color: rgba(199, 255, 47, 0.43);
+
+}
+
+.about_me h2 {
+    font-family: times new roman, times, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.about_me p {
+    font-family: calibri, verdana, helvetica, sans-serif;
+    text-align: left;
+    font-size: 110%;
+    font-weight: lighter;
+}
+
+.about_me ol {
+    color: red;
+    font-style: italic;
+    list-style-type: roman;
+}
+
+.about_me ul {
+    color: red;
+    font-style: italic;
+    list-style-type: square;
+}
+
+.about_me a {
+    text-decoration: none;
+    color: black;
+}
+
+.about_me a:hover {
+    color: orange;
+}
+
+.future_plans h2 {
+    color: #ff9300;
+    font-family: cursive;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.future_plans p {
+    color: red;
+    font-family: fantasy;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    color: darkviolet;
+}
+
+
+
